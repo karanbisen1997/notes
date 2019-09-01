@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+        {% for message in messages %}
+        <h1>{{message}}</h1> 
+        {% endfor%}
+    </div>
+
+<h1><a href="users/register">register</a><br>
+    <h1><a href="users/login">login</a>
+
+{% endblock %}
